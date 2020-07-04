@@ -10,8 +10,9 @@ let transporter = nodemailer.createTransport({
     }
 });
 
+// Step 2
 let mailOptions = {
-    from: '*********************', // TODO: email sender
+    from: '*******************', // TODO: email sender
     to: '*********************', // TODO: email receiver
     subject: 'Nodemailer - Test',
     text: 'Wooohooo it works!!'
